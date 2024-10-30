@@ -1,0 +1,252 @@
+.table-container{
+	width: 1000px;
+	float: left;
+}
+
+#sidebar-container{
+	margin-left: 20px;
+	float: right;
+	width: calc(100% - 1020px);
+	display: none;
+}
+
+#sidebar-container-below-breakpoint{
+	max-width: 1000px;
+	margin-left: 0px;
+	width: 100%;
+	float: left;
+	margin-top: 36px;
+}
+
+.daext-form-container{
+	width: 100% !important;
+}
+
+table.daext-form > tbody > tr > th{
+	width: 218px !important;
+}
+
+.sorting-options,
+.style-options,
+.autoalignment-options,
+.responsive-options,
+.advanced-options{
+	display: none;
+}
+
+.expand-icon{
+	background: url("../img/arrow-down-f7f7f7.png") 0 0 no-repeat !important;
+	width: 20px !important;
+	height: 20px !important;
+	float: right;
+	margin: 2px 0;
+	cursor: pointer;
+}
+
+.group-trigger{
+	background: #f7f7f7;
+	cursor: pointer;
+}
+
+.group-title{
+	font-weight: 600;
+	color: #333 !important;
+	text-align: left !important;
+}
+
+.expand-icon.arrow-down{
+	background: url("../img/arrow-up-f7f7f7.png") 0 0 no-repeat !important;
+}
+
+table.daext-items .icons-container{
+	width: 76px;
+	max-width: 76px;
+}
+
+table.daext-items .clone{
+	background: url("../img/clone.png") 0 0 no-repeat !important;
+	margin-right: 8px !important;
+	margin-top: 4px !important;
+	margin-bottom: 4px !important;
+}
+
+table.daext-items .clone:hover{
+	background: url("../img/clone-hover.png") 0 0 no-repeat !important;
+}
+
+#cell-properties-error-message,
+#cell-properties-added-updated-message,
+#table-error,
+#table-success{
+	display: none;
+	margin-top: 8px;
+}
+
+#table-preview-error{
+	display: none;
+}
+
+.sp-replacer{
+	display: none !important;
+}
+
+input[type=number]{
+	color: #333 !important;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	height: 24px !important;
+}
+
+select{
+	height: 24px !important;
+}
+
+/* Handsontable rows border color */
+.ht_master tr > td {
+	border-color: #dddddd !important;
+	color: #333;
+}
+
+/* Different background for the cells of the first row */
+#daextletal-table .ht_master tr:first-child > td {
+	background: #f7f7f7;
+}
+
+.wtBorder {
+	background-color: #0075a5 !important;
+}
+
+.handsontable td.area{
+	background:-moz-linear-gradient(top,rgba(181,227,255,0.34) 0,rgba(181,227,255,0.34) 100%) !important;
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(181,227,255,0.34)),color-stop(100%,rgba(181,227,255,0.34))) !important;
+	background:-webkit-linear-gradient(top,rgba(181,227,255,0.34) 0,rgba(181,227,255,0.34) 100%) !important;
+	background:-o-linear-gradient(top,rgba(181,227,255,0.34) 0,rgba(181,227,255,0.34) 100%) !important;
+	background:-ms-linear-gradient(top,rgba(181,227,255,0.34) 0,rgba(181,227,255,0.34) 100%) !important;
+	background:linear-gradient(to bottom,rgba(181,227,255,0.34) 0,rgba(181,227,255,0.34) 100%) !important;
+}
+
+#daextletal-table{
+	height: 347px;
+	overflow: hidden;
+	width: 750px;
+}
+
+#daextletal-table-td{
+	padding-bottom: 7px;
+}
+
+/* set center alignment to the table cells */
+#daextletal-table td,
+#daextletal-table textarea{
+	text-align: center;
+}
+
+#daextletal-table textarea:focus{
+	background: #0075a5 !important;
+	color: #fff !important;
+}
+
+.daext-form-container input[type="text"]{
+	width: 218px;
+}
+
+.daext-form-container select {
+	min-width: 218px;
+	max-width: 218px;
+}
+
+.wp-color-result{
+	margin: 0;
+	box-shadow: none;
+}
+
+table.daext-form-cell-properties > tbody > tr > th{
+	vertical-align: top;
+}
+
+table.daext-form .image-uploader .selected-image{
+	width: auto;
+	max-width: 100%;
+}
+
+table.daext-form .image-uploader{
+	max-width: 200px;
+}
+
+table.daext-form .image-uploader .button_add_media{
+	display: inline;
+}
+
+table.daext-form .image-container{
+	min-width: 200px;
+}
+
+.sidebar-container-below-breakpoint{
+	max-width: 1000px !important;
+	margin-left: 0px !important;
+	width: 100% !important;
+	float: left !important;
+	margin-top: 36px !important;
+}
+
+#cell-property-html-content{
+	width: 218px;
+	height: 72px;
+	padding: 3px 5px;
+	float: left;
+	font-family: Consolas, Monaco, monospace;
+	border-color: #dddddd;
+	border-radius: 0;
+	line-height: 16.8px;
+}
+
+#cell-property-html-content:focus{
+	border-color: #5b9dd9;
+}
+
+/* Color Picker adaptation to the interface style */
+.wp-picker-container{
+	display: inline-block !important;
+}
+
+.wp-picker-container > button{
+	margin: 0 !important;
+	box-shadow: none !important;
+}
+
+.wp-picker-container .wp-picker-clear{
+	box-shadow: none !important;
+}
+
+table.daext-form-cell-properties > tbody > tr:not(:last-child) > th,
+table.daext-form-cell-properties > tbody > tr:not(:last-child) > td{
+	border-bottom-width: 0;
+}
+
+/* Cell Highlights Customization */
+
+tr .has-cell-properties:not(.area){
+	background-image: url("../img/has-cell-properties.png") !important;
+	background-repeat: no-repeat !important;
+	background-position: top right !important;
+}
+
+/* Context menu customization */
+
+.htContextMenu table tbody tr td .htItemWrapper{
+	font-size: 12px !important;
+	margin: 0 6px !important;
+}
+
+.htContextMenu table tbody tr td:first-child{
+	padding: 0 6px !important;
+}
+
+.htContextMenu table.htCore{
+	border-width: 1px !important;
+}
+
+.htContextMenu table tbody tr td.current, .htContextMenu table tbody tr td.zeroclipboard-is-hover{
+	background: #f7f7f7 !important;
+}
